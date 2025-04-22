@@ -19,6 +19,16 @@
    
     <link rel="icon" type="image/png" href="https://hosting.tigerengine.id/674d5q.jpg" />
     <link rel="image_src" href="https://hosting.tigerengine.id/674d5q.jpg" />
+    <script>
+let tglNow = new Date();
+let waktuBatas = new Date("2025-05-22T23:59:59");
+if (tglNow.getTime() >= waktuBatas.getTime()) {
+  document.location.href = 'https://expiredweb.pages.dev';
+} else {
+  console.log('Server aktif');
+}
+</script>
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
         }
